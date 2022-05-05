@@ -1,0 +1,222 @@
+ 	body{
+  zoom: 1 /* Coloca o zoom em 200% */
+
+}
+ 	header{
+ 	background: linear-gradient( rgba(120, 60, 125, 1),rgba(252, 252, 252, 0.1));
+	}
+ 
+	.logo{
+	margin: 2% 0 0 2%;
+	width:35%;
+	}
+
+	.chinelo{
+	position: absolute;
+	width: 15%;
+	right: 2%;
+	top: 20px;
+	opacity: 0.5;
+ 	}
+
+	.chinelo2{
+	position: absolute;
+	width: 15%;
+	right: 2%;
+	top: 140px;
+	opacity: 0.5;
+ 	}
+
+	.chinelo3{
+	position: absolute;
+	width: 15%;
+	right: 2%;
+	top: 260px;
+	opacity: 0.5;
+	}
+
+	.cabecalho{
+	position: relative;
+	width: 1400px;
+	margin: 0 auto;
+	}
+
+  	nav{
+	position: absolute;
+	top: 80%;
+	right: 16%;
+	/*max-width:100%;
+	height:auto;*/
+	}
+
+ 	nav li{
+ 	display: inline;
+ 	padding: 14px 18px 6px 20px;
+	background:rgba(186,85,211,0.7);
+	border-radius: 22px;
+	margin: 0 0 0 60px;
+	box-shadow: -10px -10px 10px 0.5px #000000;
+ 	}
+
+ 	nav li:hover{
+ 	background:rgba(186,85,211, 1);
+ 	}
+
+ 	nav a{
+ 	text-transform: uppercase;/*Letra Maiúscula*/
+	font-weight: bold;/*negrito*/
+	font-size: 28px; /*tamanho da fonte*/
+	text-decoration: none;/*Tirar sublinhado*/
+	color:white;/*rgba(120, 60, 125, 1);85 11 86 1,cor do texto*/
+	}
+   
+/*Conteúdo do Main*/
+
+	main{
+	 
+	 
+	margin: 0 auto;
+	background:linear-gradient(rgba(252, 252, 252, 0.1), rgba(120, 60, 125, 0.1),rgba(252, 252, 252, 0.1));
+ 	}
+
+	h2{
+	font-family: arial, helvetica, sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	text-align: center;
+	margin:35px 0 85px 0;
+	padding: 66px 0 0 0;
+	opacity: 0.7;
+	color: rgba(62, 62, 62, 1);
+	}
+
+ 	.folha{
+	opacity: 0.5;
+	}
+
+	#conteudo{
+	margin: 0 0 70px 0;
+	}
+
+	main p{
+	text-align: center;
+	font-size: 28px;
+ 	margin: 0 0 30px 0;	
+	}
+
+	#nomenegrito{
+	font-style: italic;
+	font-size: 34px;
+	}
+
+
+/*footer Parte do Rodapé*/
+	footer{
+	background: linear-gradient(rgba(252, 252, 252, 0.1), rgba(120, 60, 125, 1));
+	padding: 100px 0 100px 0;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	}
+
+	.chinelo4{
+	position: absolute;
+	width: 15%;
+	right: 82%;
+	top: -28% ;
+	opacity: 0.5;
+	 
+	}
+
+	.chinelo5{
+	position: absolute;
+	width: 15%;
+	right: 82%;
+	top: 28%;
+	opacity: 0.5;
+	 
+	}
+
+	h3{
+	text-align: center;
+	}
+ 
+ /*style produtoschinelos*/
+
+	main img{
+ 	width: 20%;
+ 	right: auto;
+	}
+
+  	.fotoproduto{
+ 	border: solid 20px rgba(132, 132, 132, 1); 
+ 	border-radius: 40px;
+ 	margin: 20px 20px 100px 100px;
+ 	transition: 0.5s all;
+ 	opacity: 0.8;
+	}
+
+ 	.fotoproduto:hover{
+  	border: solid 20px rgba(139, 0, 139, 0.7); 
+  	opacity: 1;
+ 	cursor:pointer;
+	}
+
+ /*Css Contatos*/
+  	form{
+ 	margin: 100px 0;
+	}
+
+	.inputcontatos{
+	font-size: 22px;
+	}
+
+	.contatos{
+	text-align: center;
+	}
+
+	#radio-contatos{
+	display: inline-block;
+	margin:0 0 0 38% ;
+
+	}
+ 	main label {
+ 	font-size: 24px;
+ 	}
+
+ 	section input{
+ 	margin: 28px 33%;
+ 	padding: 10px 25px;
+ 	width: 30%;
+ 	border-radius: 20px;
+ 	box-shadow:-10px -10px 10px 0.5px #000000;
+	}
+
+	textarea{
+	margin: 28px 33%;
+ 	padding: 10px 25px;
+ 	width: 30%;
+ 	border-radius: 20px;
+ 	box-shadow:-10px -10px 10px 0.5px #000000;
+	}
+
+	.sub{
+	height: 40px;
+    display: inline-block;
+    width: 16%;
+    box-shadow:-10px -10px 10px 0.5px #000000;
+    border-radius: 20px;
+    font-size: 18px;
+	}
+
+	.submit{
+	text-align: center;
+    margin: 40px;
+    }
+
+ 	  
+ 
+
+ 	 
+
+ 
