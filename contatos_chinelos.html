@@ -1,80 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale= 1.0">
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0">
 
-		<title>Do seu jeito chinelos</title>
-	</head>
-	<body>
-		<header>
-			<div class="cabecalho">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-				<img class="chinelo" src="chinelopng.png">
-				<img class="chinelo2" src="chinelopng.png">
-				<img class="chinelo3" src="chinelopng.png">
+	<title>Do seu jeito chinelos</title>
+</head>
 
-			
-				<h1><a href="logo8.html"><img class="logo" src="logopng.png"></a></h1>
-			 
-		 
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="Produtoschinelos.html">Produtos</a></li>
-						<li><a href="contatos_chinelos.html">Contatos</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<main>
-			<form>
-				<section class="contatos">
-					<label for="nomesobrenome" >Nome do Cliente</label> 
-					<input type="text" id="nomesobrenome" class="inputcontatos" required placeholder="Nome e Sobrenome">  
+<body>
+	<header class="cabecalho">
+		<nav class="navegacao">
+			<img class="logo" src="logopng.png">
+			<ul class="cabecalho--lista">
+				<a href="index.html" class="cabecalho--link">Home</a>
+				<a href="index_produtos_chinelos.html" class="cabecalho--link">Produtos</a>
+				<a href="index_contatos_chinelos.html" class="cabecalho--link">Contatos</a>
+			</ul>
+		</nav>
 
-					<label for="tel" >Telefone de contato</label> 
-					<input type="telefone" id="tel" class="inputcontatos" required placeholder="(xx)xxxxx-xxxx"> 
+		<div class="cabecalho--chinelo">
+			<img class="chinelo1" src="chinelopng.png">
+		</div>
+	</header>
+	<main>
+		<form>
+			<section class="contatos">
+				<label for="nomesobrenome">Nome do Cliente</label>
+				<input type="text" id="nomesobrenome" class="inputcontatos" required placeholder="Nome e Sobrenome">
 
-					<label  for="e-mail">E-mail</label> 
-					<input type="text" id="e-mail" class="inputcontatos"  required placeholder="seuemail@dominio">
+				<label for="tel">Telefone de contato</label>
+				<input type="telefone" id="tel" class="inputcontatos" required placeholder="(xx)xxxxx-xxxx">
 
-					<label for="mensagem">Mensagem</label>
-					<textarea cols="70" rows="10" class="mensagem"  id="mensagem"></textarea>
-				</section>
-				
-				<div id="radio-contatos">
+				<label for="e-mail">E-mail</label>
+				<input type="text" id="e-mail" class="inputcontatos" required placeholder="seuemail@dominio">
 
-					<p>Como prefere nosso contato?</p>
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" class="mensagem" id="mensagem"></textarea>
+			</section>
 
-					<label for="radio-email"><input type="radio" name="contato" value="e-mail" class="radio" id="radio-email">
+			<div id="radio-contatos">
+
+				<p>Como prefere nosso contato?</p>
+
+				<label for="radio-email"><input type="radio" name="contato" value="e-mail" class="radio"
+						id="radio-email">
 					E-mail</label>
 
-					<label for="radio-tel"><input type="radio" name="contato" value="telefone" class="radio" id="radio-tel">
+				<label for="radio-tel"><input type="radio" name="contato" value="telefone" class="radio" id="radio-tel">
 					Telefone</label>
 
-					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" class="radio" id="radio-whatsapp"checked>WhatsApp</label>
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" class="radio"
+						id="radio-whatsapp" checked>WhatsApp</label>
 
-				</div>
+			</div>
 
-				<div class="submit">
-					<input class="sub" type="submit" value ="Enviar Formulário">
-				</div>
-			</form>
-		</main>
+			<div class="submit">
+				<input class="sub" type="submit" value="Enviar Formulário">
+			</div>
+		</form>
+	</main>
 
-		<footer>
-		
-			<img class="chinelo4" src="chinelopng.png">
-			<img class="chinelo5" src="chinelopng.png">
-				 
+	<footer>
 
-			<h3 class="textoh3">&copy; Copyright Do Seu Jeito Chinelos<h3>
-				 
-		</footer>
+		<img class="chinelo4" src="chinelopng.png">
+		<img class="chinelo5" src="chinelopng.png">
+
+
+		<h3 class="textoh3">&copy; Copyright Do Seu Jeito Chinelos<h3>
+
+	</footer>
 
 </body>
 
