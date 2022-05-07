@@ -107,29 +107,22 @@ footer {
 	text-align: center;
 	position: relative;
 	margin: 0 auto;
+	height: 10vh;
 }
 
-.chinelo4 {
+.footer--chinelo {
 	position: absolute;
 	width: 15%;
 	right: 82%;
-	top: -28%;
 	opacity: 0.5;
-
-}
-
-.chinelo5 {
-	position: absolute;
-	width: 15%;
-	right: 82%;
-	top: 28%;
-	opacity: 0.5;
+	margin-bottom: 50px;
 
 }
 
 h3 {
 	text-align: center;
 }
+
 
 /*style produtoschinelos*/
 
