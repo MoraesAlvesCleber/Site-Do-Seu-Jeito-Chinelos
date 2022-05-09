@@ -164,17 +164,17 @@ form {
 .radio-contatos {
 	display: flex;
 	flex-direction: row;
-	justify-content:center;
+	justify-content: center;
 
 }
 
 main label {
 	font-size: 24px;
-	margin:24px 30px;
+	margin: 24px 30px;
 }
 
 section input {
- 	padding: 10px 25px;
+	padding: 10px 25px;
 	width: 40%;
 	border-radius: 20px;
 	box-shadow: -10px -10px 10px 0.5px #000000;
@@ -189,22 +189,23 @@ textarea {
 	box-shadow: -10px -10px 10px 0.5px #000000;
 }
 
-main p{
+main p {
 	text-align: center;
 	font-size: 28px;
 	margin: 22px 0 0;
 }
 
 .botao--submit {
-	 padding:10px 25px;
-	 height:40px;
-	 display: inline-block;
-	 width: 40%;
-	 box-shadow: -10px -10px 10px 0.5px #000000;
-	 border-radius: 20px;
-	 font-size: 18px;
-	 margin-bottom: 60px;
+	padding: 10px 25px;
+	height: 40px;
+	display: inline-block;
+	width: 40%;
+	box-shadow: -10px -10px 10px 0.5px #000000;
+	border-radius: 20px;
+	font-size: 18px;
+	margin-bottom: 60px;
 }
+
 .container--submit {
 	text-align: center;
 }
