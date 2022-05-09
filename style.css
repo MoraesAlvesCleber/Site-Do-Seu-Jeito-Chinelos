@@ -147,7 +147,7 @@ main img {
 
 /*Css Contatos*/
 form {
-	margin: 100px 0;
+	margin-top: 40px;
 }
 
 .inputcontatos {
@@ -156,44 +156,55 @@ form {
 
 .contatos {
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-#radio-contatos {
-	display: inline-block;
-	margin: 0 0 0 38%;
+.radio-contatos {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
 
 }
 
 main label {
 	font-size: 24px;
+	margin:24px 30px;
 }
 
 section input {
-	margin: 28px 33%;
-	padding: 10px 25px;
-	width: 30%;
+ 	padding: 10px 25px;
+	width: 40%;
 	border-radius: 20px;
 	box-shadow: -10px -10px 10px 0.5px #000000;
 }
 
 textarea {
-	margin: 28px 33%;
+	margin: 22px;
 	padding: 10px 25px;
-	width: 30%;
+	width: 50%;
+	height: 22vh;
 	border-radius: 20px;
 	box-shadow: -10px -10px 10px 0.5px #000000;
 }
 
-.sub {
-	height: 40px;
-	display: inline-block;
-	width: 16%;
-	box-shadow: -10px -10px 10px 0.5px #000000;
-	border-radius: 20px;
-	font-size: 18px;
-}
-
-.submit {
+main p{
 	text-align: center;
-	margin: 40px;
+	font-size: 28px;
+	margin: 22px 0 0;
+}
+
+.botao--submit {
+	 padding:10px 25px;
+	 height:40px;
+	 display: inline-block;
+	 width: 40%;
+	 box-shadow: -10px -10px 10px 0.5px #000000;
+	 border-radius: 20px;
+	 font-size: 18px;
+	 margin-bottom: 60px;
+}
+.container--submit {
+	text-align: center;
 }
